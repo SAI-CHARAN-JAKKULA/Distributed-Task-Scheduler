@@ -95,9 +95,9 @@ Here is the detailed component tree of the project based on the system structure
 ├── src/main/resources
 │   └── log4j.properties
 ├── src/test/java
-│   ├── com.umar.taskscheduler.DistributedTaskScheduler
+│   ├── com.sai.taskscheduler.DistributedTaskScheduler
 │   │   └── AppTest.java
-│   ├── com.umar.taskscheduler.strategy
+│   ├── com.sai.taskscheduler.strategy
 │   │   └── RoundRobinWorkerTest.java
 └── JRE System Library [JavaSE-17]
 ```
@@ -315,7 +315,7 @@ Use the following maven dependency:
 
 ```xml
 <dependency>
-    <groupId>com.snehasishroy</groupId>
+    <groupId>com.saicharanjakkula</groupId>
     <artifactId>TaskScheduler</artifactId>
     <version>1.0</version>
 </dependency>
@@ -367,7 +367,7 @@ For Zookeeper visualization, you can use the following tool:
 
 ## Running the Application
 
-Main class: `com.umar.taskscheduler.App`
+Main class: `com.sai.taskscheduler.App`
 
 Arguments: `server local.yml`
 
