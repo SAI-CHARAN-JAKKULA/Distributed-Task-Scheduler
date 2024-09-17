@@ -140,7 +140,7 @@ Here is the detailed component tree of the project based on the system structure
 
 The architecture of the **Distributed Task Scheduler** is built to ensure efficient task scheduling and execution in a distributed system. Below is the architecture diagram that illustrates the interaction between components:
 
-![Task Scheduler](https://github.com/umar-7w4/Distributed-Task-Scheduler/blob/main/Task%20Scheduler.jpeg)
+![Task Scheduler](https://github.com/SAI-CHARAN-JAKKULA/Distributed-Task-Scheduler/blob/main/Task%20Scheduler.jpeg)
 
 ### Architecture Components:
 
@@ -148,6 +148,7 @@ The architecture of the **Distributed Task Scheduler** is built to ensure effici
    - Submits tasks via a REST API and listens for task completion notifications.
    - Provides the input parameters required for task execution.
   
+
 2. **Zookeeper**: 
    - Manages worker nodes, leader election, and task coordination.
    - Tasks are stored under `/jobs`, and task assignments are stored under `/assignments`.
@@ -292,7 +293,7 @@ Zookeeper acts as the backbone of the **Distributed Task Scheduler**, handling c
 ### Steps to Deploy:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/umar/TaskScheduler.git
+   git clone https://github.com/SAI-CHARAN-JAKKULA/Distributed-Task-Scheduler.git
    ```
 2. Start Zookeeper:
    ```bash
