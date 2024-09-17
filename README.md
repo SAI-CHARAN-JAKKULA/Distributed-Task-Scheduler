@@ -21,9 +21,7 @@ The **Distributed Task Scheduler** is a fault-tolerant and scalable distributed 
 - [Failure Handling](#failure-handling)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
-- [Future Enhancements](#future-enhancements)
-
----
+- [Future Enhancements](#future-enhancements---
 
 ## Introduction
 
@@ -66,33 +64,33 @@ Here is the detailed component tree of the project based on the system structure
 
 ```plaintext
 ├── src/main/java
-│   ├── com.umar.taskscheduler
+│   ├── com.sai.taskscheduler
 │   │   ├── App.java
 │   │   ├── AppConfiguration.java
 │   │   └── JobDetail.java
-│   ├── com.umar.taskscheduler.callbacks
+│   ├── com.sai.taskscheduler.callbacks
 │   │   ├── AssignmentListener.java
 │   │   ├── JobAssigner.java
 │   │   ├── JobsListener.java
 │   │   └── WorkersListener.java
-│   ├── com.umar.taskscheduler.core
+│   ├── com.sai.taskscheduler.core
 │   │   └── ZKDao.java
-│   ├── com.umar.taskscheduler.DistributedTaskScheduler
+│   ├── com.sai.taskscheduler.DistributedTaskScheduler
 │   │   └── App.java
-│   ├── com.umar.taskscheduler.module
+│   ├── com.sai.taskscheduler.module
 │   │   └── GuiceModule.java
-│   ├── com.umar.taskscheduler.resources
+│   ├── com.sai.taskscheduler.resources
 │   │   ├── Client.java
 │   │   ├── Job.java
 │   │   └── Worker.java
-│   ├── com.umar.taskscheduler.service
+│   ├── com.sai.taskscheduler.service
 │   │   ├── ClientService.java
 │   │   └── WorkerService.java
-│   ├── com.umar.taskscheduler.strategy
+│   ├── com.sai.taskscheduler.strategy
 │   │   ├── RandomWorker.java
 │   │   ├── RoundRobinWorker.java
 │   │   └── WorkerPickerStrategy.java
-│   └── com.umar.taskscheduler.util
+│   └── com.sai.taskscheduler.util
 │       └── ZKUtils.java
 ├── src/main/resources
 │   └── log4j.properties
@@ -398,6 +396,6 @@ If you want to run multiple instances of the application, just change both the p
 ### License
 
 ```
-This project is licensed under the @2024 Umar Mohammad
+This project is licensed under the @2024 Sai Charan Jakkula
 ```
 
