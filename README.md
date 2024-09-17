@@ -21,7 +21,7 @@ The **Distributed Task Scheduler** is a fault-tolerant and scalable distributed 
 - [Failure Handling](#failure-handling)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
-- [Future Enhancements](#future-enhancements---
+- [Future Enhancements](#future-enhancements)
 
 ## Introduction
 
